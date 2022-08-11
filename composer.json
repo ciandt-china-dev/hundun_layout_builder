@@ -1,0 +1,50 @@
+{
+    "name": "ciandt-china/hundun_layout_builder",
+    "description": "",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Ciandt",
+            "homepage": "https://github.com/ciandt-china-dev",
+            "role": "Maintainer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "assets": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    },
+    "require": {
+        "drupal/allowed_formats": "1.x-dev",
+        "drupal/block_content_permissions": "1.x-dev",
+        "drupal/block_form_alter": "2.x-dev",
+        "drupal/block_library": "1.0.x-dev",
+        "drupal/bootstrap_layout_builder": "2.x-dev",
+        "drupal/bootstrap_layouts": "5.x-dev",
+        "drupal/bootstrap_styles": "1.0.x-dev",
+        "drupal/entity_block": "1.x-dev",
+        "drupal/layout_builder_at": "2.x-dev",
+        "drupal/layout_builder_block_sanitizer": "1.x-dev",
+        "drupal/layout_builder_blocks": "1.0.x-dev",
+        "drupal/layout_builder_component_attributes": "2.x-dev",
+        "drupal/layout_builder_modal": "1.x-dev",
+        "drupal/layout_builder_restrictions": "2.x-dev",
+        "drupal/layout_library": "1.x-dev",
+        "drupal/lb_ux": "1.x-dev",
+        "drupal/length_indicator": "1.x-dev",
+        "drupal/media_library_form_element": "2.x-dev",
+        "drupal/section_library": "1.0.x-dev"
+    },
+    "extra": {
+        "enable-patching": true,
+        "composer-exit-on-patch-failure": true
+    }
+
+}
